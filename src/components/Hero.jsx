@@ -1,3 +1,6 @@
+
+import profilePic from "../assets/profilePic.jpg"
+
 const Hero = () => (
   <section className="relative min-h-[90vh] flex flex-col md:flex-row items-center justify-between glass-effect rounded-3xl p-8 md:p-12 overflow-hidden">
     {/* Decorative elements */}
@@ -27,7 +30,7 @@ const Hero = () => (
     <div className="z-10 flex justify-center items-center w-full md:w-auto mt-10 md:mt-0">
       <div className="relative">
         <img
-          src="/profile.jpg"
+          src={profilePic}
           alt="Tejas Mahendra Bhos"
           className="w-64 h-64 rounded-full object-cover border-4 border-[#5B4FFF] shadow-2xl hover-glow"
         />
